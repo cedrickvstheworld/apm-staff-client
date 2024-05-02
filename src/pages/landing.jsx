@@ -22,7 +22,8 @@ function Landing() {
       }
     }
     auth()
-  })
+  // eslint-disable-next-line
+  }, [])
   
   const handleSignIn = () => {
     axios.post(
